@@ -1,0 +1,25 @@
+{
+  "functions": {
+    "api/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "/api/:path*"
+    }
+  ]
+}
+```
+
+4. **"Commit changes"**
+
+---
+
+## **STRUCTURE FINALE SUR GITHUB :**
+```
+phantom-backend/
+  ├── vercel.json
+  └── api/
+      └── api.js
